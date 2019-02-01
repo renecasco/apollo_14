@@ -1,6 +1,6 @@
 class AstronautsController < ApplicationController
   def index
-    @astronaut = Astronauts.all
+    @astronauts = Astronaut.all
   end
 
 end
